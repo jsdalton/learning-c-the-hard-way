@@ -1,0 +1,4 @@
+- name: Install build-essential
+  apt: name=build-essential state=present
+  tags: build
+

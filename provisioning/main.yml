@@ -1,0 +1,2 @@
+- include: playbooks/core.yml
+- include: playbooks/project.yml

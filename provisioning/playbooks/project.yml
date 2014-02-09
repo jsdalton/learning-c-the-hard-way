@@ -1,0 +1,9 @@
+- hosts: all
+  sudo: yes
+  vars_files:
+    - ../vars/project.yml
+  tasks:
+    - include: ../tasks/project/main.yml
+  handlers:
+    - include: ../handlers/project.yml
+

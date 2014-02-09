@@ -1,0 +1,7 @@
+- name: Updatea apt cache
+  apt: update_cache=yes
+  tags: apt
+
+- name: Upgrade all apt packages to latest version
+  apt: upgrade=yes
+  tags: apt

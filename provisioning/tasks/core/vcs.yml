@@ -1,0 +1,6 @@
+- name: Install version control tools
+  apt: name={{ item }} state=latest
+  with_items:
+    - git
+    - subversion
+  tags: vcs

@@ -1,0 +1,4 @@
+- name: Install valgrind
+  apt: name=valgrind state=present
+  tags: valgrind
+
